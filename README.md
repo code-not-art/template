@@ -1,6 +1,6 @@
 # Interactive Code-Art Development Template
 
-Fork this template to start a new generative art sketch in a convenient interactive environment!
+Create your own repo from this template to start a new generative art sketch in a convenient interactive environment!
 
 Write your code-art algorithm and watch it render in real time in the browser. Interact with the canvas to change input parameters to see changes to the generated art. Use the psuedo-random number generated provided by the [@code-not-art/core](https://github.com/code-not-art/core) drawing library to add random effects. Cycle through different random generator seeds for both the image and its random colour selections.
 
