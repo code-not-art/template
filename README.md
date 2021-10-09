@@ -10,17 +10,11 @@ This template is mostly a wrapper around [@code-not-art/sketch](https://github.c
 
 ## Steps
 
-1. **Fork** this repo:
+1. Use this template:
 
-   [How To](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+   [How To](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
-   Github will take you to your new copy of this repo.
-
-   Optionally, rename your local repo to reflect the sketch you are going to make:
-
-   Settings button on menu of new repo
-   PLACEHOLDER: image showing location of Settings Menu
-   Change repo name and save.
+   Click the big **Use This Template** button and fill out the form to make a new repository based off this one.
 
 1. **Clone** to your computer:
 
