@@ -1,6 +1,6 @@
 {
   "name": "@code-not-art/template",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Quick Start Template for a sketching some code art",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,8 @@
     "arrowFunctionParentheses": "always"
   },
   "dependencies": {
-    "@code-not-art/sketch": "^0.6.0",
+    "@code-not-art/core": "^0.4.0",
+    "@code-not-art/sketch": "^0.9.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
