@@ -1,4 +1,3 @@
-// import { Vec2, Utils } from '@code-not-art/core';
 import {
   Sketch,
   SketchProps,
@@ -7,9 +6,7 @@ import {
   FrameData,
 } from '@code-not-art/sketch';
 
-const config = Config({
-  menuDelay: 0,
-});
+const config = Config({});
 
 const params = { customOptions: Params.header('Custom Options') };
 const data = {};
@@ -19,7 +16,7 @@ type Props = SketchProps<typeof params, typeof data>;
 /**
  * Init is run once on startup, but then not again until the page is refreshed.
  * This can be used for any programatic setup that needs RNG or other sketch properties and that should only ever be run once.
- * @param sketchProps {SketchProps} - Access to canvas context, RNG, color pallete, parameter values, and persistent data
+ * @param {SketchProps} sketchProps Access to canvas context, RNG, color pallete, parameter values, and persistent data
  */
 const init = ({}: Props) => {
   console.log('Initializing Sketch...');
@@ -29,7 +26,7 @@ const init = ({}: Props) => {
  * Reset does not run the first time the sketch is drawn, instead it is run between redraws of the sketch.
  * This can be used to reset the data in the sketch props that is passed to the draw and loop methods, or other setup tasks.
  * Note that the canvas is not cleared by default, but can be done here or at the start of hte draw method.
- * @param sketchProps {SketchProps} - Access to canvas context, RNG, color pallete, parameter values, and persistent data
+ * @param {SketchProps} sketchProps Access to canvas context, RNG, color pallete, parameter values, and persistent data
  */
 const reset = ({}: Props) => {
   console.log('Resetting Sketch...');
@@ -37,7 +34,7 @@ const reset = ({}: Props) => {
 
 /**
  * Runs once for the sketch, after data initialization and before the animation loop begins.
- * @param sketchProps {SketchProps} - Access to canvas context, RNG, color pallete, parameter values, and persistent data
+ * @param {SketchProps} sketchProps Access to canvas context, RNG, color pallete, parameter values, and persistent data
  */
 const draw = ({ canvas, palette }: Props) => {
   console.log('Drawing Sketch...');
