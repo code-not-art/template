@@ -23,16 +23,16 @@ This template is mostly a wrapper around [@code-not-art/sketch](https://github.c
 1. **Install** dependencies with npm:
 
    ```sh
-   npm ci
+   pnpm i
    ```
 
 1. **Run** the development server:
 
    ```sh
-   npm start
+   pnpm start
    ```
 
-   If successful, it will show that the server is running on `localhost:1234`. You can open this page in a browser of your choice. It should show a blank canvas.
+   If successful, it will show that the server is running on `localhost:1234`. You can open this page in a browser of your choice. It should show a mostly blank canvas, filled in with a color from a randomly generated color palette.
 
    Note: The canvas is completely transparent by default. The grey colour shown is just the background behind the canvas.
 
