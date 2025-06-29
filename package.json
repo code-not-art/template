@@ -9,8 +9,8 @@
 	},
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
-		"@code-not-art/core": "2.0.0-beta.2",
-		"@code-not-art/sketch": "2.0.0-beta.2",
+		"@code-not-art/core": "2.0.0-beta.3",
+		"@code-not-art/sketch": "2.0.0-beta.3",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"react-helmet": "^6.1.0"
